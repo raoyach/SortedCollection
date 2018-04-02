@@ -14,7 +14,7 @@ import java.util.Map;
  */
 public class Main {
     private static StockList stockList = new StockList();
-
+    // Project's entry point.
     public static void main(String[] args) {
 	    StockItem temp = new StockItem("bread", 0.86, 100);
         stockList.addStock(temp);
